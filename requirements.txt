@@ -1,0 +1,12 @@
+numpy
+pandas
+torch
+torchtext
+scikit-learn
+tensorflow
+sentence_transformers
+gensim==3.6.0
+keras
+nltk
+joblib
+streamlit
