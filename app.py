@@ -23,8 +23,8 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 
 
 # using gensim import word2vec and vectorize the recipes list
-word2vec = joblib.load('word2vec.joblib')
-entity_model = keras.models.load_model('entity_model.h5', compile=False)
+word2vec = joblib.load('models/word2vec.joblib')
+entity_model = keras.models.load_model('models/entity_model.h5', compile=False)
 
 
 def notes_to_entities(notes):
@@ -61,8 +61,8 @@ def get_linked_entities(input_news):
     return pred
 
 
-model = joblib.load('logreg_model.joblib')
-label_encoder = joblib.load('label_encoder.joblib')
+model = joblib.load('models/logreg_model.joblib')
+label_encoder = joblib.load('models/label_encoder.joblib')
 senttrans_model = SentenceTransformer('all-MiniLM-L6-v2',device='cpu')
 
 def source_find(input_news):
