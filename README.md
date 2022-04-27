@@ -2,7 +2,7 @@
 
 [Streamlit Application Link](https://share.streamlit.io/bombaybrownboy09/nigeria-news-detective/main/app.py)
 
-**Final Project by Bhargav Shetgaonkar for Duke AIPI 540 Module 2**
+**Final Project by Bhargav Shetgaonkar for Duke AIPI 540**
 <p align="center"><img align="center" width="800px" src="images/NN1.jpeg"></p>
 
 <a name="proj-stat"></a>
