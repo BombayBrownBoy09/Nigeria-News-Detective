@@ -27,7 +27,7 @@ The project data and codes are arranged in the following manner:
 _Data_: <br>
 the `data` folder can be downloaded from below link:
 1) Download data [here](https://github.com/BombayBrownBoy09/Nigeria-News-Detective/tree/main/datasets) 
-    - **Training data:** Reference Link above you can set a validation split while training
+    - **Training data:** Sourced from ACLED data on Nigeria from Jan 2019 to Apr 2022
     -  **Validation data:** you can set a 0.20 validation split while training
 2) Download trained models [here](https://github.com/BombayBrownBoy09/Nigeria-News-Detective/tree/main/models)
 
