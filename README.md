@@ -7,7 +7,7 @@
 
 <a name="proj-stat"></a>
 ## 1. Problem statement
-The objective of this project is to train a deep learning model to classify articles based on news sources and predict entities linked to ones mentioned in the text using NLP
+The objective of this project is to train a deep learning model to classify Nigeria News articles on violent events based on sources and predict entities linked to ones mentioned in the text using NLP
 
 <a name="proj-struc"></a>
 ## 2. Project Structure
