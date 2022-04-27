@@ -74,8 +74,8 @@ def source_find(input_news):
 
 def run():
     # Streamlit page title
-    st.title("Source and Linked Entities of your news")
-    st.markdown('**This is a demo application*')
+    st.title("Source and Linked Entities of your Nigeria News")
+    st.markdown('**This is a demo application that employs NLP techniques to predict a news source and linked entities to violent events*')
     hide_footer_style = """<style>.reportview-container .main footer {visibility: hidden;}"""
     st.markdown(hide_footer_style, unsafe_allow_html=True)
 
