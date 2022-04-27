@@ -1,6 +1,6 @@
 # Nigeria-News-Detective
 
-['Check out the app here'](https://share.streamlit.io/bombaybrownboy09/nigeria-news-detective/main/app.py)
+[Streamlit Application Link](https://share.streamlit.io/bombaybrownboy09/nigeria-news-detective/main/app.py)
 
 **Final Project by Bhargav Shetgaonkar for Duke AIPI 540 Module 2**
 <p align="center"><img align="center" width="800px" src="images/NN1.jpeg"></p>
