@@ -18,6 +18,7 @@ The project data and codes are arranged in the following manner:
 ├── requirements.txt        <- requirements file to document dependencies
 ├── datasets                <- contains the ACLED data from Jan 2019 to Apr 2022
 ├── models                  <- contains models of label encoding, word2vec, logreg and entity prediction model (Sequential Neural Net)
+├── .gitignore              <- exploratory and main .ipynb files used
 ├── setup                   <- setup files for both models
 ├── app.py                  <- app to run project / user interface
 ├── .gitignore              <- git ignore file
@@ -40,7 +41,7 @@ https://github.com/schmidtdominik/RecipeNet/raw/master/simplified-recipes-1M.npz
 We have 2 DL models working in this application:
 
 **Model1 (Sentence Transformer Text Classification):**
-The best performing news sourrce classification model used a pretrained sentence transformer model to generate embeddings and then used a logistic regression classification to obtain results. 
+The best performing news source classification model used a pretrained [sentence transformer](https://github.com/BombayBrownBoy09/Nigeria-News-Detective/blob/main/notebooks/Text_Classification_Sentence_transformer.ipynb) model to generate embeddings and then used a logistic regression classification to obtain results (20 % train acc). The other approach tried was [bag of words](https://github.com/BombayBrownBoy09/Nigeria-News-Detective/blob/main/notebooks/Text_Classification_Bag_of_Words.ipynb) which resulted in lesser 11.2% train acc
 <!-- <p align="center"><img align="center" width="800px" src="data/Word2Vec.png"></p>
 <p align="center"><img align="center" width="800px" src="data/Word2Vec Acc + Loss.png"></p> -->
 To get source of news, run the following from the home directory:
@@ -50,7 +51,7 @@ python setup/text_classification.py
 ```
 
 **Model2 (Linked Entity Prediction using Word2vec embeddings and LSTM neural net):**
-We first used NER using nltk and then got lists of entities for each event. We uniformly make list size to 3 and mask the 3rd entity to create a target variable Y. We then use word2vec to generate embeddings and generate prediction using a 4 layer sequential neural net.
+We first used NER using nltk and then got lists of entities for each event. We uniformly make list size to 3 and mask the 3rd entity to create a target variable Y. We then use word2vec to generate embeddings and generate prediction using a 4 layer sequential neural net [here](https://github.com/BombayBrownBoy09/Nigeria-News-Detective/blob/main/notebooks/Entity_prediction.ipynb)
 
 To get linked entities of news, run the following from the home directory:
 
