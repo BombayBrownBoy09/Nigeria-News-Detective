@@ -18,7 +18,7 @@ The project data and codes are arranged in the following manner:
 ├── requirements.txt        <- requirements file to document dependencies
 ├── datasets                <- contains the ACLED data from Jan 2019 to Apr 2022
 ├── models                  <- contains models of label encoding, word2vec, logreg and entity prediction model (Sequential Neural Net)
-├── .gitignore              <- exploratory and main .ipynb files used
+├── notebooks               <- exploratory and main .ipynb files used
 ├── setup                   <- setup files for both models
 ├── app.py                  <- app to run project / user interface
 ├── .gitignore              <- git ignore file
